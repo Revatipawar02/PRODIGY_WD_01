@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive navbar</title>
+    <title>Responsive Landing page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,21 +12,180 @@
     <header>
         <nav>
             <a href="#logo">LOGO</a>
-            <ul>
+            <ul class="menulist">
                 <li><a href="#Home" class="active">Home</a></li>
                 <li><a href="#About">About</a></li>
-                <li><a href="#Service">Service</a></li>
+                <li><a href="#Shop">Shop</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
-
+            <svg onclick="toggleMenu()" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path fill="#ffffff"
+                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+            </svg>
         </nav>
     </header>
     <main>
-        <section id="home" >home</section>
-        <section id="About">About</section>
-        <section id="Service">service</section>
-        <section id="Contact">contact</section>
+        <section id="Home">
+            <div class="homepage">
+
+                <h1>Home Made cake</h1>
+                <p>
+                    "Welcome to Sweet Home Made Cake, where every cake is a labor of love, handcrafted for your
+                    delight.
+                <ul>
+
+                    <li>
+                        Feel a sweet experience</li>
+                    <li>
+                        Quality is our recipe </li>
+                    <li>Fun Family Memories begin here.</li>
+                    <li>Baked For All Time</li>
+                </ul>
+                </p>
+            </div>
+
+        </section>
+        <section id="About">
+            <div class="Aboutpage">
+                <h4>Welcome to Sweet Home Cakes!</h4>
+                <p>At Sweet Home Cakes, we're dedicated to bringing the warmth and joy of homemade cakes to every
+                    celebration. Our passion for baking shines through in every creation, as we strive to make each bite
+                    a memorable experience.</p>
+                <h6>Our Services:</h6>
+                <ul>
+                    <li>Custom Cakes :- Have a special event coming up? Let us create a custom cake that reflects your
+                        unique style and taste. Whether it's a birthday, wedding, or any other occasion, our talented
+                        bakers will bring your vision to life.</li>
+                    <li>Personalized Service :- We believe in providing personalized service to our customers. From
+                        helping you choose the perfect flavor to designing the ideal cake for your event, we're here to
+                        make the process smooth and enjoyable.</li>
+                    <li>Delivery :- Can't make it to our shop? No problem! We offer delivery services to ensure that
+                        your
+                        cake arrives fresh and on time, wherever you are.</li>
+                    <li>Price and Payment :-Clearly display pricing information for various cake sizes and customization
+                        options.
+                        Accept multiple forms of payment, including cash, credit/debit cards, and online payment
+                        platforms.</li>
+
+                    <li>Feedback and Reviews :-Encourage customers to provide feedback and reviews to improve service
+                        quality.
+                        Utilize feedback to enhance offerings and address any areas of improvement.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section id="Shop">
+            <div class="shoppage">
+
+                <H3>Order Now</H3>
+                <table>
+                    <caption>Types of Cakes</caption>
+                    <thead>
+
+                        <tr>
+                            <th>Cake</th>
+                            <th>Information</th>
+                            <th>Price</th>
+                            <th>shop</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Chocolate Cake</td>
+                            <td>A classic favorite made with cocoa powder or melted chocolate, often layered with
+                                chocolate
+                                frosting or ganache.</td>
+                            <td>500</td>
+                            <td><a href="*">order</a></td>
+                        </tr>
+                        <tr>
+                            <td>Red Velvet Cake</td>
+                            <td>Light and fluffy, usually flavored with vanilla extract, and often paired with various
+                                frostings or fillings</td>
+                            <td>600</td>
+                            <td><a href="*">order</a></td>
+
+                        </tr>
+                        <tr>
+                            <td>Vanilla Cake</td>
+                            <td> A moist cake with a distinctive red color, typically flavored with cocoa and
+                                buttermilk,
+                                and often frosted with cream cheese frosting.
+
+                            </td>
+                            <td>750</td>
+                            <td><a href="*">order</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Fruitcake</td>
+                            <td>A dense cake filled with candied or dried fruits and nuts, often soaked in alcohol. It's
+                                commonly enjoyed during the holiday season.
+                            </td>
+                            <td>900</td>
+                            <td><a href="*">order</a></td>
+
+                        </tr>
+                        <tr>
+                            <td>Angel Food Cake</td>
+                            <td>Light and airy, made with whipped egg whites, flour, and sugar. It has a spongy texture
+                                and is typically served with fresh fruit or a light glaze.</td>
+                            <td>950</td>
+                            <td><a href="*">order</a></td>
+                        </tr>
+                        <tr>
+                            <td>Black Forest Cake</td>
+                            <td>A German dessert featuring layers of chocolate sponge cake, whipped cream, and cherries.
+                                It's often decorated with chocolate shavings and more cherries on top.</td>
+                            <td>1000</td>
+                            <td><a href="*">order</a></td>
+                        </tr>
+                        <tr>
+                            <td>Carrot Cake</td>
+                            <td>Moist and dense, made with grated carrots and often includes nuts, raisins, and spices
+                                like cinnamon and nutmeg. It's usually topped with cream cheese frosting.</td>
+                            <td>1100</td>
+                            <td><a href="*">order</a></td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+            </div>
+        </section>
+        <section id="Contact">
+
+            <div class="container">
+                <h3>Contact Form</h3>
+                <form action=" ">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="City">City</label>
+                    <select id="City" name="City">
+                        <option value="select">select</option>
+                        <option value="Dhule">Dhule</option>
+                        <option value="jalgaon">jalgaon</option>
+                        <option value="shirpur">shirpur</option>
+                        <option value="nashik">Nashik</option>
+                    </select>
+
+                    <label for="Address">Feedback</label>
+                    <textarea id="Feedback" name="Feedback" placeholder="Write Your Feedback"
+                        style="height:100px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
     </main>
 </body>
+<script src="script.js"></script>
 
 </html>
