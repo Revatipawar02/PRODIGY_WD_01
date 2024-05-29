@@ -82,17 +82,17 @@ h1 {
 
 }
 
-#home ul {
+#Home ul {
     margin-top: 9px;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
+    font-size: 17px;
+    display: inline;
     line-height: 4vh;
     list-style: inside circle;
     text-shadow: 1px 1px 10px black;
+
 }
 
-#home p {
+#Home p {
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 12px;
